@@ -8,6 +8,8 @@
     Title="DashPod.MAUI">
 
     <ShellContent
+        Shell.TitleColor="White"
+        Shell.BackgroundColor="#6100ED"
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />

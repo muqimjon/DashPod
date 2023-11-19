@@ -2,11 +2,18 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DashPod.MAUI.DetailPage"
+             xmlns:viewmodel="clr-namespace:DashPod.MAUI.ViewModels"
+             x:DataType="viewmodel:DetailViewModel"
              Title="DetailPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
+    
+    <VerticalStackLayout
+        Padding="20">
+        <Label Text="{Binding Text}"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+               FontSize="30"/>
+
+        <Button Text="Go Back"
+                Command="{Binding GoBackCommand}"/>
     </VerticalStackLayout>
 </ContentPage>
