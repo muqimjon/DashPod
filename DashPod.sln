@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashPod.MAUI", "DashPod.MAUI\DashPod.MAUI.csproj", "{C2D3FAF2-853C-4570-BCD5-C900546F7B04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2D3FAF2-853C-4570-BCD5-C900546F7B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D3FAF2-853C-4570-BCD5-C900546F7B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D3FAF2-853C-4570-BCD5-C900546F7B04}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C2D3FAF2-853C-4570-BCD5-C900546F7B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D3FAF2-853C-4570-BCD5-C900546F7B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D3FAF2-853C-4570-BCD5-C900546F7B04}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADE50B6C-D720-46AB-9856-1F8E0232B29C}
+	EndGlobalSection
+EndGlobal
