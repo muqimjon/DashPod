@@ -1,10 +1,11 @@
-﻿namespace DashPod.MAUI
+﻿namespace DashPod.MAUI;
+
+public partial class AppShell : Shell
 {
-    public partial class AppShell : Shell
+    public AppShell()
     {
-        public AppShell()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+
+        Routing.RegisterRoute(nameof(DetailPage), typeof(DetailPage));
     }
 }
